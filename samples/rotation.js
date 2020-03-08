@@ -33,7 +33,7 @@ class App extends Component{
       outputRange: ["0deg", "-360deg"]
     })
     const animatedStyle ={
-      transform: [{rotateZ: boxInterpolation}]
+      transform: [{rotateY: boxInterpolation}]
     }
     return (
       <View style={styles.container}>
