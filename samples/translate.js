@@ -6,6 +6,8 @@
  * @flow
  */
 
+ // This a Translated example using Animation Api
+
 import React, { Component } from 'react';
 import {StyleSheet ,Animated, TouchableWithoutFeedback, View} from 'react-native';
 
@@ -33,7 +35,7 @@ class App extends Component{
 
   render(){
     const animatedStyle ={
-      transform : [ { translateX: this.state.animation}]
+      transform : [ { translateY: this.state.animation}]
     }
     return (
       <View style={styles.container}>
